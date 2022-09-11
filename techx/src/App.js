@@ -1,12 +1,11 @@
 import './App.css';
-import Users from './components/Users';
-import UsersContextProvider from './contexts/UsersContextProvider';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <div className="App">
-     <UsersContextProvider>
-        <Users />
-     </UsersContextProvider>
+    <Navbar />
+    
     </div>
   );
 }
