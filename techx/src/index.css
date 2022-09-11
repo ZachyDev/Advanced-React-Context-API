@@ -27,3 +27,15 @@ ul li {
   background: aliceblue;
   color: navy;
 }
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: navy;
+  font-size: 16px;
+  font-weight: 600;
+}
