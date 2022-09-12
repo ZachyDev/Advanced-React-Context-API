@@ -31,6 +31,7 @@ ul li {
   display: flex;
   flex-direction: row;
   padding: 20px;
+  width:100%;
 }
 .nav a {
   padding: 10px;
