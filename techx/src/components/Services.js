@@ -16,8 +16,9 @@ function Services() {
             'dark'
         ].map(variant => {
             return(
-                <Alert key={variant} variant={variant}>
-                    We are moving to techx.com starting this November!
+                <Alert key={variant} variant={variant} dismissible>
+                <Alert.Heading>TechX Global</Alert.Heading>
+                    <p>We are moving to techx.com starting this November!</p>
                 <Alert.Link href='https://zachary.io.ke'>Visit site</Alert.Link>
                 </Alert>
             )
